@@ -613,7 +613,7 @@ body {
   background: rgba(255,255,255,.06);
   border: 1.5px solid rgba(122,60,255,.3);
   border-radius: 10px;
-     color: #e6e6e6;
+  color: var(--text);
   font-family: 'Poppins', sans-serif;
   font-size: .88rem;
   padding: .65rem 1rem .65rem 2.4rem;
@@ -625,7 +625,7 @@ body {
   border-color: var(--accent);
   background: rgba(122,60,255,.08);
   box-shadow: 0 0 0 3px rgba(122,60,255,.18);
-color: #e6e6e6;
+  color: var(--text);
 }
 .login-input::placeholder { color: var(--text-muted); }
 .login-input:-webkit-autofill { -webkit-text-fill-color: var(--text); }
@@ -853,3 +853,5 @@ color: #e6e6e6;
 .cinerate-toast.show { opacity: 1; transform: translateY(0); }
 .cinerate-toast.toast-success i { color: #50e89a; }
 .cinerate-toast.toast-error i { color: #ff7070; }
+.login-gate{position:fixed;inset:0;background:rgba(10,10,20,.95);display:flex;align-items:center;justify-content:center;z-index:99999}
+.login-card{width:380px;max-width:92%;background:#1b132c;padding:25px;border-radius:18px;color:#fff;box-shadow:0 0 30px rgba(122,60,255,.4)}
