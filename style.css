@@ -853,5 +853,3 @@ color: #e6e6e6;
 .cinerate-toast.show { opacity: 1; transform: translateY(0); }
 .cinerate-toast.toast-success i { color: #50e89a; }
 .cinerate-toast.toast-error i { color: #ff7070; }
-.login-gate{position:fixed;inset:0;background:rgba(10,10,20,.95);display:flex;align-items:center;justify-content:center;z-index:99999}
-.login-card{width:380px;max-width:92%;background:#1b132c;padding:25px;border-radius:18px;color:#fff;box-shadow:0 0 30px rgba(122,60,255,.4)}
