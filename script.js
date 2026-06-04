@@ -559,26 +559,6 @@ function init() {
   updateNavForAuth();
 }
 
-document.addEventListener('DOMContentLoaded', init);
-document.addEventListener('DOMContentLoaded',()=>{
- const gate=document.getElementById('loginGate');
- if(localStorage.getItem('cine_logged')==='true' && gate) gate.style.display='none';
- const btn=document.getElementById('loginBtn');
- if(btn){
-   btn.onclick=()=>{
-     if(loginUser.value==='admin' && loginPass.value==='admin123'){
-       localStorage.setItem('cine_logged','true');
-       gate.style.display='none';
-     }else alert('Username atau password salah');
-   };
- }
-
- document.querySelectorAll('iframe').forEach(f=>{
-   f.addEventListener('error',()=>{
-      f.src='https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ';
-   });
- });
-});
 
 
 document.addEventListener('DOMContentLoaded', function(){
